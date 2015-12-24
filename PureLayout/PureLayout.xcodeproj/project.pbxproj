@@ -135,6 +135,7 @@
 		B1EC8561195662790099293C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12C23DE17C3FDE4001CF667 /* UIKit.framework */; };
 		B1EC857D195662B40099293C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EC855E195662790099293C /* XCTest.framework */; };
 		EB8233211C2B74C0000B21D1 /* ALiOSDemo1ViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EB8C56191C2B61EC00A86BE0 /* ALiOSDemo1ViewCell.h */; };
+		EB8233221C2BADEB000B21D1 /* ALiOSDemo1ViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C56171C2B61D100A86BE0 /* ALiOSDemo1ViewCell.m */; };
 		EB8C560E1C2B593F00A86BE0 /* ALiOSDemo11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C560D1C2B593F00A86BE0 /* ALiOSDemo11ViewController.m */; };
 		EB8C56101C2B5E0B00A86BE0 /* ALiOSDemo11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C560D1C2B593F00A86BE0 /* ALiOSDemo11ViewController.m */; };
 		EB8C56111C2B5E3B00A86BE0 /* iOSDemo11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8C560B1C2B57C700A86BE0 /* iOSDemo11ViewController.swift */; };
@@ -577,7 +578,9 @@
 				B12C23DD17C3FDE4001CF667 /* Frameworks */,
 				B12C23DC17C3FDE4001CF667 /* Products */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		B12C23DC17C3FDE4001CF667 /* Products */ = {
 			isa = PBXGroup;
@@ -1161,6 +1164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8233221C2BADEB000B21D1 /* ALiOSDemo1ViewCell.m in Sources */,
 				EB8C56101C2B5E0B00A86BE0 /* ALiOSDemo11ViewController.m in Sources */,
 				B13DFF2619E773D100B26152 /* ALiOSDemo2ViewController.m in Sources */,
 				B162DF6C19E9F6A800D56FEA /* ALiOSDemo5ViewController.m in Sources */,
