@@ -134,6 +134,15 @@
 		B1EC8560195662790099293C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12C23E017C3FDE4001CF667 /* Foundation.framework */; };
 		B1EC8561195662790099293C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12C23DE17C3FDE4001CF667 /* UIKit.framework */; };
 		B1EC857D195662B40099293C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EC855E195662790099293C /* XCTest.framework */; };
+		EB8233211C2B74C0000B21D1 /* ALiOSDemo1ViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EB8C56191C2B61EC00A86BE0 /* ALiOSDemo1ViewCell.h */; };
+		EB8C560E1C2B593F00A86BE0 /* ALiOSDemo11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C560D1C2B593F00A86BE0 /* ALiOSDemo11ViewController.m */; };
+		EB8C56101C2B5E0B00A86BE0 /* ALiOSDemo11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C560D1C2B593F00A86BE0 /* ALiOSDemo11ViewController.m */; };
+		EB8C56111C2B5E3B00A86BE0 /* iOSDemo11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8C560B1C2B57C700A86BE0 /* iOSDemo11ViewController.swift */; };
+		EB8C56121C2B5E3B00A86BE0 /* ALiOSDemo11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C560D1C2B593F00A86BE0 /* ALiOSDemo11ViewController.m */; };
+		EB8C56151C2B60F700A86BE0 /* iOSDemo1ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8C56141C2B60F700A86BE0 /* iOSDemo1ViewCell.swift */; };
+		EB8C56181C2B61D100A86BE0 /* ALiOSDemo1ViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C56171C2B61D100A86BE0 /* ALiOSDemo1ViewCell.m */; };
+		EB8C561A1C2B670D00A86BE0 /* iOSDemo1ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8C56141C2B60F700A86BE0 /* iOSDemo1ViewCell.swift */; };
+		EB8C561B1C2B670D00A86BE0 /* ALiOSDemo1ViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C56171C2B61D100A86BE0 /* ALiOSDemo1ViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -329,6 +338,12 @@
 		B1EC855D195662790099293C /* PureLayoutTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PureLayoutTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1EC855E195662790099293C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B1EC857C195662B40099293C /* PureLayoutTests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PureLayoutTests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8C560B1C2B57C700A86BE0 /* iOSDemo11ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDemo11ViewController.swift; sourceTree = SOURCE_ROOT; };
+		EB8C560D1C2B593F00A86BE0 /* ALiOSDemo11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALiOSDemo11ViewController.m; path = "Example-iOS/Demos/ALiOSDemo11ViewController.m"; sourceTree = SOURCE_ROOT; };
+		EB8C560F1C2B595D00A86BE0 /* ALiOSDemo11ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALiOSDemo11ViewController.h; path = "Example-iOS/Demos/ALiOSDemo11ViewController.h"; sourceTree = SOURCE_ROOT; };
+		EB8C56141C2B60F700A86BE0 /* iOSDemo1ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDemo1ViewCell.swift; sourceTree = SOURCE_ROOT; };
+		EB8C56171C2B61D100A86BE0 /* ALiOSDemo1ViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALiOSDemo1ViewCell.m; path = "Example-iOS/Demos/ALiOSDemo1ViewCell.m"; sourceTree = SOURCE_ROOT; };
+		EB8C56191C2B61EC00A86BE0 /* ALiOSDemo1ViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALiOSDemo1ViewCell.h; path = "Example-iOS/Demos/ALiOSDemo1ViewCell.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -435,6 +450,7 @@
 		A7D496531B7AF95E00A74818 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				EB8C56131C2B60E000A86BE0 /* ViewCell */,
 				A7DB5C861B7AD92B000ED37F /* iOSDemo1ViewController.swift */,
 				A7DB5C891B7ADF7D000ED37F /* iOSDemo2ViewController.swift */,
 				A7DB5C8B1B7AE28D000ED37F /* iOSDemo3ViewController.swift */,
@@ -445,6 +461,7 @@
 				A7DB5C951B7AEC83000ED37F /* iOSDemo8ViewController.swift */,
 				A7D4964F1B7AF1D100A74818 /* iOSDemo9ViewController.swift */,
 				A7D496511B7AF44D00A74818 /* iOSDemo10ViewController.swift */,
+				EB8C560B1C2B57C700A86BE0 /* iOSDemo11ViewController.swift */,
 			);
 			name = Swift;
 			sourceTree = "<group>";
@@ -452,6 +469,7 @@
 		A7D496541B7AF97A00A74818 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				EB8C56161C2B61AA00A86BE0 /* ViewCell */,
 				B1006C6E19E76D4200B92767 /* ALiOSDemo1ViewController.h */,
 				B1006C6F19E76D4200B92767 /* ALiOSDemo1ViewController.m */,
 				B13DFF2219E773D100B26152 /* ALiOSDemo2ViewController.h */,
@@ -472,6 +490,8 @@
 				B162DF7719EB3A4500D56FEA /* ALiOSDemo9ViewController.m */,
 				B1B9C68A1A1E6FC200E50B6A /* ALiOSDemo10ViewController.h */,
 				B1B9C68B1A1E6FC200E50B6A /* ALiOSDemo10ViewController.m */,
+				EB8C560D1C2B593F00A86BE0 /* ALiOSDemo11ViewController.m */,
+				EB8C560F1C2B595D00A86BE0 /* ALiOSDemo11ViewController.h */,
 			);
 			name = "Objective-C";
 			sourceTree = "<group>";
@@ -695,6 +715,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EB8C56131C2B60E000A86BE0 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C56141C2B60F700A86BE0 /* iOSDemo1ViewCell.swift */,
+			);
+			name = ViewCell;
+			sourceTree = "<group>";
+		};
+		EB8C56161C2B61AA00A86BE0 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C56171C2B61D100A86BE0 /* ALiOSDemo1ViewCell.m */,
+				EB8C56191C2B61EC00A86BE0 /* ALiOSDemo1ViewCell.h */,
+			);
+			name = ViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -913,7 +950,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AL;
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					164C8B4D1C0D354E0007A6B1 = {
@@ -1066,6 +1103,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8233211C2B74C0000B21D1 /* ALiOSDemo1ViewCell.h in Sources */,
+				EB8C561A1C2B670D00A86BE0 /* iOSDemo1ViewCell.swift in Sources */,
+				EB8C561B1C2B670D00A86BE0 /* ALiOSDemo1ViewCell.m in Sources */,
+				EB8C56111C2B5E3B00A86BE0 /* iOSDemo11ViewController.swift in Sources */,
+				EB8C56121C2B5E3B00A86BE0 /* ALiOSDemo11ViewController.m in Sources */,
 				A7D496591B7B084800A74818 /* ALiOSDemo2ViewController.m in Sources */,
 				A7D4965A1B7B084800A74818 /* iOSDemo8ViewController.swift in Sources */,
 				A7D4965B1B7B084800A74818 /* ALiOSDemo5ViewController.m in Sources */,
@@ -1096,8 +1138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8C56151C2B60F700A86BE0 /* iOSDemo1ViewCell.swift in Sources */,
 				B1046AD11A7F32670017187F /* NSArray+PureLayout.m in Sources */,
 				B1046AD01A7F32670017187F /* ALView+PureLayout.m in Sources */,
+				EB8C560E1C2B593F00A86BE0 /* ALiOSDemo11ViewController.m in Sources */,
+				EB8C56181C2B61D100A86BE0 /* ALiOSDemo1ViewCell.m in Sources */,
 				B1046AD21A7F32670017187F /* NSLayoutConstraint+PureLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1116,6 +1161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8C56101C2B5E0B00A86BE0 /* ALiOSDemo11ViewController.m in Sources */,
 				B13DFF2619E773D100B26152 /* ALiOSDemo2ViewController.m in Sources */,
 				B162DF6C19E9F6A800D56FEA /* ALiOSDemo5ViewController.m in Sources */,
 				B139A5121956334500F33B19 /* main.m in Sources */,
@@ -1419,6 +1465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"USING_XCODE7_SCHEME=1",
@@ -1441,6 +1488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"USING_XCODE7_SCHEME=1",
@@ -1486,6 +1534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.PureLayout.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = PureLayout;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1670,6 +1719,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Example-iOS/Example-iOS-Info.plist";
 				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1688,6 +1738,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Example-iOS/Example-iOS-Info.plist";
 				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1892,6 +1943,7 @@
 				164C8B5B1C0D354F0007A6B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		164C8B801C0D36500007A6B1 /* Build configuration list for PBXNativeTarget "PureLayout_tvOS" */ = {
 			isa = XCConfigurationList;
